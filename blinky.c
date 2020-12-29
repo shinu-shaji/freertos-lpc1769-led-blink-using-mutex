@@ -31,7 +31,7 @@ static void vLEDTask1(void *pvParameters) {
 //vTaskDelay(3500);
 			xSemaphoreGive((d->key));
 			vTaskDelay(1000);
-			4
+			
 		}
 	}
 }
